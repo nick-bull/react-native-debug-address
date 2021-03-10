@@ -1,5 +1,7 @@
 ## Description
 
+⚠️  Warning - only for Android. Please feel free to add a pull request for iOS
+
 Sets the debug host for a React Native app. This can be set using Ctrl/Cmd+M, selecting "Settings", then typing it into the "Debug server host & port for device" popup.
 
 This can get tedious if you find yourself continuously restarting an emulator with a server on the non-default port, especially if you're running multiple emulators
