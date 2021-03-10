@@ -2,7 +2,7 @@
   "name": "@nick-bull/react-native-debug-address",
   "title": "React Native Debug Address",
   "description": "Get or set the debug address for a React Native app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Nick Bull <nick@bull.dev>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
