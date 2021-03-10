@@ -1,24 +1,16 @@
 {
   "name": "@nick-bull/react-native-debug-address",
   "title": "React Native Debug Address",
-  "description": "Get or set the debug address for a React Native app",
   "version": "0.0.1",
-  "author": "Nick Bull <nick@bull.dev>",
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "keywords": [
-    "react-native"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nick-bull/react-native-debug-address.git",
-    "baseUrl": "https://github.com/nick-bull/react-native-debug-address"
-  },
-  "bugs": {
-    "url": "https://github.com/nick-bull/react-native-debug-address/issues"
-  },
-  "homepage": "https://github.com/nick-bull/react-native-debug-address#readme",
+  "description": "Get or set the debug address for a React Native app",
   "main": "src/index.js",
+  "files": [
+    "README.md",
+    "android",
+    "src/index.js",
+    "ios",
+    "react-native-debug-address.podspec"
+  ],
   "scripts": {
     "build": "babel src --out-dir lib",
     "prepublish": "npm run build",
@@ -26,15 +18,28 @@
     "publish:patch": "npm version patch && npm run publish",
     "publish:minor": "npm version minor && npm run publish",
     "publish:major": "npm version major && npm run publish",
-    "test": "jest --verbose --coverage --passWithNoTests",
-    "test:update": "npm test --updateSnapshot",
-    "test:watch": "jest --verbose --watch",
-    "coverage": "npm test && open ./coverage/lcov-report/index.html",
+    "test": "jest --coverage --passWithNoTests",
     "eslint": "npx eslint **/src/**/*.js",
     "eslint:files": "npm run eslint | grep ^[\\w/].*\\.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-bull/react-native-debug-address.git",
+    "baseUrl": "https://github.com/nick-bull/react-native-debug-address"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Nick Bull <nick@bull.dev>",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "bugs": {
+    "url": "https://github.com/nick-bull/react-native-debug-address/issues"
+  },
+  "homepage": "https://github.com/nick-bull/react-native-debug-address#readme",
   "dependencies": {
-    "react-native": "^0.63.4"
+    "react-native": "^0.63.4",
+    "ts-jest": "^26.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
@@ -48,8 +53,8 @@
   },
   "jest": {
     "testMatch": [
-      "<rootDir>/tests/**/*.[jt]s?(x)"
-    ],
-    "rootDir": "."
+      "**/tests/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
   }
 }

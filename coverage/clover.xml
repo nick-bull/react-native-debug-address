@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1615383429383" clover="3.2.0">
+  <project timestamp="1615383429383" name="All files">
+    <metrics statements="31" coveredstatements="31" conditionals="29" coveredconditionals="29" methods="7" coveredmethods="7" elements="67" coveredelements="67" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
+    <file name="addresses.js" path="/home/willow/Documents/tests/react-native-debug-address/src/addresses.js">
+      <metrics statements="31" coveredstatements="31" conditionals="29" coveredconditionals="29" methods="7" coveredmethods="7"/>
+      <line num="1" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="80" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="17" type="stmt"/>
+      <line num="6" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="10" count="9" type="stmt"/>
+      <line num="12" count="9" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="17" type="stmt"/>
+      <line num="16" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="6" type="stmt"/>
+      <line num="20" count="66" type="stmt"/>
+      <line num="21" count="11" type="stmt"/>
+      <line num="23" count="11" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="26" count="17" type="cond" truecount="3" falsecount="0"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="29" count="12" type="stmt"/>
+      <line num="30" count="12" type="stmt"/>
+      <line num="32" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="42" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="45" count="8" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="49" count="6" type="stmt"/>
+    </file>
+  </project>
+</coverage>
